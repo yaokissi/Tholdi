@@ -1,0 +1,82 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto Mono', monospace;
+}
+h2{
+  text-align: center;
+}
+form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 50%;
+  height: 600px;
+  background-color: #f7f7f7;
+  box-shadow: 10px 5px 5px black;
+  /* border-radius: 25px; */
+  margin-bottom: 100px;
+}
+.centrale {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  color: #8e8e8e;
+}
+
+input,p {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+input[type="submit"]{
+  text-align: center;
+  margin: auto;
+  border-radius: 50px;
+  background-color:#33bb7c;
+  padding: 2px;
+  border: none;
+  color: white;
+  cursor :pointer;
+  margin-top:30px;
+  width: 30%;
+  height: 40px;
+  margin-bottom:20px;
+
+}
+input {
+  width: 45%;
+  height: 30px;
+  background-color: #fafafa;
+  border-radius: 2px;
+  border: none;
+  border-bottom: 1px solid orange;
+}
+input:focus {
+  border-top: 1px solid orange;
+  outline: none;
+
+}
+.LoginInput{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.alert-form{
+  
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  width: 50%;
+}
+.alert-form p {
+  text-align: center;
+}
+.success-form {
+  color: #33bb7c;
+  text-align: center;
+  font-weight: bold;
+  width: 50%;
+  
+}

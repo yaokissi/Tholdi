@@ -1,0 +1,78 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto Mono', monospace;
+}
+main {
+  margin-bottom: 100px;
+}
+.formulaire {
+  display: flex;
+  margin-top: 70px;;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  background-color: #f7f7f7;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 25px;
+}
+.logo2{
+  width: 50%;
+background-color: #30ba78;
+border-radius: 25px;
+}
+.logodeux {
+
+  margin-left: -380px;
+}
+form {
+  width: 50%;
+  text-align: center;
+}
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 30px;
+  background-color: #fafafa;
+  border-radius: 2px;
+  border: none;
+  border-bottom: 1px solid orange;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.user-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+}
+input::placeholder {
+text-align: center;
+}
+
+input[type="submit"]{
+  display: block;
+  text-align: center;
+  margin: auto;
+  border-radius: 50px;
+  background-color:#33bb7c;
+  padding: 2px;
+  border: none;
+  color: white;
+  cursor :pointer;
+  margin-top:80px;
+  width: 30%;
+  height: 20px;
+}
+input:focus {
+  border-top: 1px solid orange;
+  outline: none;
+}
+p {
+  font-size: 12px;
+  margin-top: 30px;
+  text-align: center;
+}

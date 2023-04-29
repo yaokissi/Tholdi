@@ -1,0 +1,52 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.slogan {
+  height: 720px;
+  width: 100%;
+  background-image:  url('../img/bg-home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* opacity: 0.8; */
+/*  margin-top: -800px;*/
+}
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  color: #fe7c3f;
+  padding-top: 130px;
+  font-size: 50px;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.home-button {
+  padding: 10px;
+  width: 15%;
+  background-color: #30ba78;
+  margin-left: auto;
+  margin-right: auto;
+  color :white;
+  border: none;
+  display: block;
+  margin-top: 50px;
+  border-radius: 50px;
+}
+.procedure {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  margin-top: 200px;
+}
+.procedure article {
+  width: 30%;
+  height: 190px;
+  background-color: #f7f7f7;
+}
+.procedure span {
+  font-size: 50px;
+}
